@@ -30,13 +30,14 @@
 ..\..\output\main.o: ..\..\Libraries\FWlib\inc\misc.h
 ..\..\output\main.o: ..\..\User\adc\bsp_adc.h
 ..\..\output\main.o: ..\..\User\pwm\pwm.h
+..\..\output\main.o: ..\..\User\capture\capture.h
+..\..\output\main.o: ..\..\User\sys\sys.h
 ..\..\output\main.o: ..\..\User\usart\usart.h
 ..\..\output\main.o: E:\Keil_5\ARM\ARMCC\Bin\..\include\stdarg.h
 ..\..\output\main.o: E:\Keil_5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\..\output\main.o: E:\Keil_5\ARM\ARMCC\Bin\..\include\string.h
 ..\..\output\main.o: E:\Keil_5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\..\output\main.o: ..\..\User\delay\delay.h
-..\..\output\main.o: ..\..\User\sys\sys.h
 ..\..\output\main.o: ..\..\User\FreeRTOS\include\FreeRTOS.h
 ..\..\output\main.o: E:\Keil_5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\..\output\main.o: ..\..\User\FreeRTOS\include\FreeRTOSConfig.h

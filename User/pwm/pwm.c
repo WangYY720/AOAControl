@@ -32,7 +32,7 @@ void TIM_PWM_Init(){  //TIM_PWM初始化 arr重装载值 psc预分频系数
     GPIO_InitStrue.GPIO_Speed=GPIO_Speed_50MHz;   //设置最大输出速度
     GPIO_Init(PWM_GPIO_4,&GPIO_InitStrue);        //GPIO端口初始化设置
 		
-		GPIO_InitStrue.GPIO_Pin=GPIO_Pin_10;    				// TIM_CH4
+		GPIO_InitStrue.GPIO_Pin=GPIO_Pin_8;    				// TIM_CH4
     GPIO_InitStrue.GPIO_Mode=GPIO_Mode_Out_PP;    	// 复用推挽
     GPIO_InitStrue.GPIO_Speed=GPIO_Speed_50MHz;   //设置最大输出速度
     GPIO_Init(GPIOA,&GPIO_InitStrue);        //GPIO端口初始化设置

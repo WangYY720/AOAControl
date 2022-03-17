@@ -34,12 +34,12 @@ u8 float2char(float Xfloat)
 	else return (int)Xfloat+128;
 }
 
-void TIMx_IRQHandler(void){ 																	//TIMx中断处理函数
-	
-	if (TIM_GetITStatus(TIMx, TIM_IT_Update) != RESET){				//判断是否是TIMx中断
-			TIM_ClearITPendingBit(TIMx, TIM_IT_Update);
-			
-	}
-} 
+//void TIMx_IRQHandler(void){ 																	//TIMx中断处理函数
+//	
+//	if (TIM_GetITStatus(TIMx, TIM_IT_Update) != RESET){				//判断是否是TIMx中断
+//			TIM_ClearITPendingBit(TIMx, TIM_IT_Update);
+//			
+//	}
+//} 
 
 
