@@ -31,6 +31,11 @@ void TIM_PWM_Init(){  //TIM_PWM初始化 arr重装载值 psc预分频系数
     GPIO_InitStrue.GPIO_Mode=GPIO_Mode_AF_PP;    	// 复用推挽
     GPIO_InitStrue.GPIO_Speed=GPIO_Speed_50MHz;   //设置最大输出速度
     GPIO_Init(PWM_GPIO_4,&GPIO_InitStrue);        //GPIO端口初始化设置
+		
+		GPIO_InitStrue.GPIO_Pin=GPIO_Pin_10;    				// TIM_CH4
+    GPIO_InitStrue.GPIO_Mode=GPIO_Mode_Out_PP;    	// 复用推挽
+    GPIO_InitStrue.GPIO_Speed=GPIO_Speed_50MHz;   //设置最大输出速度
+    GPIO_Init(GPIOA,&GPIO_InitStrue);        //GPIO端口初始化设置
     
 //    GPIO_PinRemapConfig(GPIO_PartialRemap_TIM3,ENABLE); //映射，重映射只用于64、100、144脚单片机
    //当没有重映射时，TIM3的四个通道CH1，CH2，CH3，CH4分别对应PA6，PA7,PB0,PB1

@@ -1,6 +1,11 @@
 #ifndef __DELAY_H
 #define __DELAY_H 			   
-#include "stm32f10x.h"  
+#include "sys.h"
+ 
+void Delay_s(u16 s);
+void Delay_ms(u16 ms);
+void Delay_us(u32 us);
+
 //////////////////////////////////////////////////////////////////////////////////	 
 //本程序只供学习使用，未经作者许可，不得用于其它任何用途
 //ALIENTEK STM32开发板
@@ -41,14 +46,39 @@
 ////////////////////////////////////////////////////////////////////////////////// 
 	 
 void delay_init(void);
-void delay_ms(u16 nms);
+void delay_ms(u32 nms);
 void delay_us(u32 nus);
-
-void Delay_s(u16 s);
-void Delay_ms(u16 ms);
-void Delay_us(u32 us);
+void delay_xms(u32 nms);
 
 #endif
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

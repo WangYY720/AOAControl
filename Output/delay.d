@@ -1,5 +1,6 @@
 ..\..\output\delay.o: ..\..\User\delay\delay.c
 ..\..\output\delay.o: ..\..\User\delay\delay.h
+..\..\output\delay.o: ..\..\User\sys\sys.h
 ..\..\output\delay.o: ..\..\Libraries\CMSIS\stm32f10x.h
 ..\..\output\delay.o: ..\..\Libraries\CMSIS\core_cm3.h
 ..\..\output\delay.o: E:\Keil_5\ARM\ARMCC\Bin\..\include\stdint.h
@@ -29,3 +30,18 @@
 ..\..\output\delay.o: ..\..\Libraries\FWlib\inc\stm32f10x_usart.h
 ..\..\output\delay.o: ..\..\Libraries\FWlib\inc\stm32f10x_wwdg.h
 ..\..\output\delay.o: ..\..\Libraries\FWlib\inc\misc.h
+..\..\output\delay.o: ..\..\User\FreeRTOS\include\FreeRTOS.h
+..\..\output\delay.o: E:\Keil_5\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\delay.o: ..\..\User\FreeRTOS\include\FreeRTOSConfig.h
+..\..\output\delay.o: ..\..\User\usart\usart.h
+..\..\output\delay.o: E:\Keil_5\ARM\ARMCC\Bin\..\include\stdarg.h
+..\..\output\delay.o: E:\Keil_5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\delay.o: E:\Keil_5\ARM\ARMCC\Bin\..\include\string.h
+..\..\output\delay.o: E:\Keil_5\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\delay.o: ..\..\User\FreeRTOS\include\projdefs.h
+..\..\output\delay.o: ..\..\User\FreeRTOS\include\portable.h
+..\..\output\delay.o: ..\..\User\FreeRTOS\include\deprecated_definitions.h
+..\..\output\delay.o: ..\..\User\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h
+..\..\output\delay.o: ..\..\User\FreeRTOS\include\mpu_wrappers.h
+..\..\output\delay.o: ..\..\User\FreeRTOS\include\task.h
+..\..\output\delay.o: ..\..\User\FreeRTOS\include\list.h

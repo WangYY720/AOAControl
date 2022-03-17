@@ -36,3 +36,14 @@
 ..\..\output\main.o: E:\Keil_5\ARM\ARMCC\Bin\..\include\string.h
 ..\..\output\main.o: E:\Keil_5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\..\output\main.o: ..\..\User\delay\delay.h
+..\..\output\main.o: ..\..\User\sys\sys.h
+..\..\output\main.o: ..\..\User\FreeRTOS\include\FreeRTOS.h
+..\..\output\main.o: E:\Keil_5\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\main.o: ..\..\User\FreeRTOS\include\FreeRTOSConfig.h
+..\..\output\main.o: ..\..\User\FreeRTOS\include\projdefs.h
+..\..\output\main.o: ..\..\User\FreeRTOS\include\portable.h
+..\..\output\main.o: ..\..\User\FreeRTOS\include\deprecated_definitions.h
+..\..\output\main.o: ..\..\User\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h
+..\..\output\main.o: ..\..\User\FreeRTOS\include\mpu_wrappers.h
+..\..\output\main.o: ..\..\User\FreeRTOS\include\task.h
+..\..\output\main.o: ..\..\User\FreeRTOS\include\list.h

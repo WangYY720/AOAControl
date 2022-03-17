@@ -34,3 +34,12 @@
 ..\..\output\usart.o: ..\..\Libraries\FWlib\inc\stm32f10x_wwdg.h
 ..\..\output\usart.o: ..\..\Libraries\FWlib\inc\misc.h
 ..\..\output\usart.o: ..\..\User\delay\delay.h
+..\..\output\usart.o: ..\..\User\sys\sys.h
+..\..\output\usart.o: ..\..\User\FreeRTOS\include\FreeRTOS.h
+..\..\output\usart.o: E:\Keil_5\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\usart.o: ..\..\User\FreeRTOS\include\FreeRTOSConfig.h
+..\..\output\usart.o: ..\..\User\FreeRTOS\include\projdefs.h
+..\..\output\usart.o: ..\..\User\FreeRTOS\include\portable.h
+..\..\output\usart.o: ..\..\User\FreeRTOS\include\deprecated_definitions.h
+..\..\output\usart.o: ..\..\User\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h
+..\..\output\usart.o: ..\..\User\FreeRTOS\include\mpu_wrappers.h
