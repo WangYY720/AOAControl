@@ -10,7 +10,7 @@ void TIM_PWM_Init(){  //TIM_PWM初始化 arr重装载值 psc预分频系数
     RCC_APB1PeriphClockCmd(RCC_PWM_TIMx,ENABLE);					//使能TIMx和相关GPIO时钟
     RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA,ENABLE);	//使能GPIOA时钟
 		RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB,ENABLE);	//使能GPIOB时钟
-//    RCC_APB2PeriphClockCmd(RCC_APB2Periph_AFIO,ENABLE);	//使能AFIO时钟(定时器3通道重映射)
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_AFIO,ENABLE);	//使能AFIO时钟(定时器3通道重映射)
     
 		GPIO_InitStrue.GPIO_Pin=PWM_Pin_1;     				// TIM_CH1
     GPIO_InitStrue.GPIO_Mode=GPIO_Mode_AF_PP;    	// 复用推挽

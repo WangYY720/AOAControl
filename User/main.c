@@ -7,7 +7,9 @@
 #include "FreeRTOS.h"
 #include "task.h"
 
-extern __IO uint16_t ADC_ConvertedValue;
+extern __IO uint16_t ADC_ConvertedValue1;
+extern __IO uint16_t ADC_ConvertedValue2;
+__IO uint16_t ADC_ConvertedValue;
 // 局部变量，用于保存转换计算后的电压值 	 
 float ADC_ConvertedValueLocal; 
 
@@ -54,6 +56,7 @@ void task1_task(void *pvparameters)
 	while(1){
 		GPIO_SetBits(GPIOA,GPIO_Pin_10);
 		
+		ADC_ConvertedValue = (ADC_ConvertedValue1 > ADC_ConvertedValue2) ? ADC_ConvertedValue2 : ADC_ConvertedValue1;
 		ADC_ConvertedValueLocal =(float) ADC_ConvertedValue/4096.0*3.3; 
 
 		TIM_SetCompare1(PWM_TIMx,ADC_ConvertedValueLocal/3.3*6000+1500);

@@ -141,17 +141,6 @@ void DebugMon_Handler(void)
 //{
 //}
 
-
-void ADC_IRQHandler(void)
-{	
-	if (ADC_GetITStatus(ADCx,ADC_IT_EOC)==SET) 
-	{
-		// 读取ADC的转换值
-		ADC_ConvertedValue = ADC_GetConversionValue(ADCx);
-	}
-	ADC_ClearITPendingBit(ADCx,ADC_IT_EOC);
-}
-
 /******************************************************************************/
 /*                 STM32F10x Peripherals Interrupt Handlers                   */
 /*  Add here the Interrupt Handler for the used peripheral(s) (PPP), for the  */
