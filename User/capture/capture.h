@@ -2,7 +2,7 @@
 #define __CAPTURE_H_
 #include "sys.h"
 
-void Time_Cap_Init();
-void UpdateCapture(u32 *data);
+void Time_Cap_Init(void);
+void UpdateCapture(u32 data[]);
 
 #endif

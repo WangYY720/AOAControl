@@ -332,7 +332,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_MD, USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\Libraries\CMSIS;..\..\User;..\..\Libraries\FWlib\inc;..\..\User\usart;..\..\User\adc;..\..\User\delay;..\..\User\pwm;..\..\User\tim;..\..\User\FreeRTOS\include;..\..\User\sys;..\..\User\FreeRTOS\portable\RVDS\ARM_CM3</IncludePath>
+              <IncludePath>..\..\Libraries\CMSIS;..\..\User;..\..\Libraries\FWlib\inc;..\..\User\usart;..\..\User\adc;..\..\User\delay;..\..\User\pwm;..\..\User\tim;..\..\User\FreeRTOS\include;..\..\User\sys;..\..\User\FreeRTOS\portable\RVDS\ARM_CM3;..\..\User\capture;..\..\User\OLED</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -589,6 +589,16 @@
               <FileName>sys.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\User\sys\sys.c</FilePath>
+            </File>
+            <File>
+              <FileName>capture.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\User\capture\capture.c</FilePath>
+            </File>
+            <File>
+              <FileName>oled.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\User\OLED\oled.c</FilePath>
             </File>
           </Files>
         </Group>

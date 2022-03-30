@@ -15,10 +15,11 @@
 #define    ADC_GPIO_APBxClock_FUN        RCC_APB2PeriphClockCmd
 #define    ADC_GPIO_CLK                  RCC_APB2Periph_GPIOA  
 #define    ADC_PORT                      GPIOA
-#define    ADC_PIN_1                     GPIO_Pin_1
-#define    ADC_PIN_2                     GPIO_Pin_2
+#define    ADC_PIN_1                     GPIO_Pin_4
+#define    ADC_PIN_2                     GPIO_Pin_5
 // ADC 通道宏定义
-#define    ADC_CHANNEL                   ADC_Channel_1
+#define    ADC_CHANNEL1                  ADC_Channel_4
+#define    ADC_CHANNEL2                  ADC_Channel_5
 
 // ADC 中断相关宏定义
 #define    ADC_IRQ                       ADC1_2_IRQn

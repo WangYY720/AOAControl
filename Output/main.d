@@ -48,3 +48,5 @@
 ..\..\output\main.o: ..\..\User\FreeRTOS\include\mpu_wrappers.h
 ..\..\output\main.o: ..\..\User\FreeRTOS\include\task.h
 ..\..\output\main.o: ..\..\User\FreeRTOS\include\list.h
+..\..\output\main.o: ..\..\User\OLED\oled.h
+..\..\output\main.o: ..\..\User\buzzerled\buzzer_led.h

@@ -64,9 +64,9 @@ static void ADCx_Mode_Config(void)
 	RCC_ADCCLKConfig(RCC_PCLK2_Div8); 
 	
 	// 配置 ADC 通道转换顺序和采样时间
-	ADC_RegularChannelConfig(ADC1, ADC_Channel_1, 1, 
+	ADC_RegularChannelConfig(ADC1, ADC_CHANNEL1, 1, 
 	                         ADC_SampleTime_55Cycles5);
-	ADC_RegularChannelConfig(ADC2, ADC_Channel_2, 1, 
+	ADC_RegularChannelConfig(ADC2, ADC_CHANNEL2, 1, 
 	                         ADC_SampleTime_55Cycles5);
 
 	// ADC 转换结束产生中断，在中断服务程序中读取转换值
