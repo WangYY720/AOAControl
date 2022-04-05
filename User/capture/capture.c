@@ -74,7 +74,7 @@ void Time_Cap_Init()
     NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);
     NVIC_InitStructure.NVIC_IRQChannel=TIM2_IRQn;
     NVIC_InitStructure.NVIC_IRQChannelCmd=ENABLE;
-    NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority=2;
+    NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority=3;
     NVIC_InitStructure.NVIC_IRQChannelSubPriority=0;
     NVIC_Init(&NVIC_InitStructure);
 
@@ -315,19 +315,19 @@ void UpdateCapture(u32 data[])
 		
 	//CH1
 	if(temp[0]>=1499 && temp[0]<=7500)
-		data[0] = temp[0] + 1;
+		data[1] = temp[0] + 1;
 	
 	//CH2
 	if(temp[1]>=1499 && temp[1]<=7500)
-		data[1] = temp[1] + 1;
+		data[2] = temp[1] + 1;
 	
 	//CH3
 	if(temp[2]>=1499 && temp[2]<=7500)
-		data[2] = temp[2] + 1;
+		data[3] = temp[2] + 1;
 	
 	//CH4
 	if(temp[3]>=1499 && temp[3]<=7500)
-		data[3] = temp[3] + 1;
+		data[4] = temp[3] + 1;
 		
 }
 

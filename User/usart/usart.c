@@ -1,7 +1,8 @@
 
 #include "usart.h"
 #include "delay.h"
-	  	 
+#include "oled.h"
+
 //使UASRT串口可用printf函数发送
 //在usart.h文件里可更换使用printf函数的串口号	  
 #if 1
@@ -94,7 +95,6 @@ void USART1_IRQHandler(void){ //串口1中断服务程序（固定的函数名不能修改）
 	u8 Res;
 	if(USART_GetITStatus(USART1, USART_IT_RXNE) != RESET){	
 		Res = USART_ReceiveData(USART1);//(USART1->DR);	//读取接收到的数据
-		
 
 		USART_ClearITPendingBit(USART1, USART_IT_RXNE);
 	} 

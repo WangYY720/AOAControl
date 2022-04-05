@@ -35,6 +35,7 @@
 ..\..\output\usart.o: ..\..\Libraries\FWlib\inc\misc.h
 ..\..\output\usart.o: ..\..\User\delay\delay.h
 ..\..\output\usart.o: ..\..\User\sys\sys.h
+..\..\output\usart.o: ..\..\User\OLED\oled.h
 ..\..\output\usart.o: ..\..\User\FreeRTOS\include\FreeRTOS.h
 ..\..\output\usart.o: E:\Keil_5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\..\output\usart.o: ..\..\User\FreeRTOS\include\FreeRTOSConfig.h
