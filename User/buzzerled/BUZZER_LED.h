@@ -14,6 +14,7 @@
 #define	LED_OFF			GPIO_ResetBits(LED_GPIO,LED_PIN)	
 
 void BUZZER_LED_Init(void);
+void BUZZER_BEEP(u8 time);
 
 #endif
 

@@ -465,7 +465,7 @@ ARM Macro Assembler    Page 8
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
 ork --depend=..\..\output\startup_stm32f10x_md.d -o..\..\output\startup_stm32f1
-0x_md.o -IE:\GitKraken\MyProject\AttackAngleControl\Project\RVMDK£¨uv5£©\RTE -I
+0x_md.o -Ie:\GitKraken\MyProject\AttackAngleControl\Project\RVMDK£¨uv5£©\RTE -I
 "E:\Keil_5\BACKUP\Keil uvision5 MDK°æ\Keil\STM32F1xx_DFP\2.1.0\Device\Include" 
 -IE:\Keil_5\ARM\CMSIS\Include --predefine="__MICROLIB SETA 1" --predefine="__UV
 ISION_VERSION SETA 518" --predefine="STM32F10X_MD SETA 1" --list=..\..\listing\

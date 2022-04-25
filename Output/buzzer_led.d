@@ -29,3 +29,5 @@
 ..\..\output\buzzer_led.o: ..\..\Libraries\FWlib\inc\stm32f10x_wwdg.h
 ..\..\output\buzzer_led.o: ..\..\Libraries\FWlib\inc\misc.h
 ..\..\output\buzzer_led.o: ..\..\User\buzzerled\buzzer_led.h
+..\..\output\buzzer_led.o: ..\..\User\delay\delay.h
+..\..\output\buzzer_led.o: ..\..\User\sys\sys.h
