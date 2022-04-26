@@ -1,8 +1,4 @@
 *** Using Compiler 'V5.06 update 1 (build 61)', folder: 'E:\Keil_5\ARM\ARMCC\Bin'
 Build target 'ADC-单通道-中断读取'
-compiling main.c...
-linking...
-Program Size: Code=32230 RO-data=2342 RW-data=1440 ZI-data=12200  
-FromELF: creating hex file...
 "..\..\Output\ADC-单通道-中断读取.axf" - 0 Error(s), 0 Warning(s).
-Build Time Elapsed:  00:00:04
+Build Time Elapsed:  00:00:03
